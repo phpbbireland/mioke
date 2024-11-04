@@ -1,0 +1,11 @@
+{
+    "manufacturer": "Mioke",
+    "maintainer": "phpbbireland",
+    "usb": {
+        "device_version": "0.0.1",
+        "vid": "0xFEED"
+    }
+    "bootloader_instructions": "Hold down the BOOT button, press and release the NRST button, release the BOOT button.",
+    "url": "https://github.com/phpbbireland/mioke80",
+    "board": "BLACKPILL_STM32_F411"
+}
