@@ -1,4 +1,4 @@
-/* Copyright (C) 2022 jonylee@hfd
+/* Copyright (C) 2024 mioke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,14 +24,9 @@
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 10
 
-
 /*
 #define RGB_TRIGGER_ON_KEYDOWN
-
 #define WS2812_DI_PIN A1
-
-
-
 #define WS2812_LED_COUNT 99
 #define WS2812_TIMING	1250
 #define WS2812_T1H	900
@@ -39,7 +34,6 @@
 #define WS2812_TRST_US	280
 #define WS2812_RGBW true                             // Enables RGBW support (except i2c driver)
 #define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_RGB      // WS2812B-2020
-
 */
 
 /*
@@ -55,28 +49,4 @@
 // compiled ok 30/09/2024
 
 
-/*
-	https://docs.qmk.fm/drivers/eeprom
 
-	SPI Driver Configuration
-	Currently QMK supports 25xx-series chips over SPI. As such, requires a working spi_master driver configuration.
-	You can override the driver configuration via your config.h:
-
-#define SPI_DRIVER                           SPID1
-#define SPI_SCK_PIN                          A5
-#define SPI_SCK_PAL_MODE                     5
-#define SPI_MOSI_PIN                         A7
-#define SPI_MOSI_PAL_MODE                    5
-#define SPI_MISO_PIN                         A6
-#define SPI_MISO_PAL_MODE                    5
-
-#define EXTERNAL_EEPROM_SPI_SLAVE_SELECT_PIN A4
-#define EXTERNAL_EEPROM_SPI_CLOCK_DIVISOR    64
-
-#define STM32_ONBOARD_EEPROM_SIZE
-#define EXTERNAL_EEPROM_BYTE_COUNT           8192
-#define EXTERNAL_EEPROM_PAGE_SIZE	         32
-#define EXTERNAL_EEPROM_ADDRESS_SIZE	     2
-
-
-*/
