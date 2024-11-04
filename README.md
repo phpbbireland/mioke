@@ -1,4 +1,4 @@
-# Mioke keyboards
+# Mioke Keyboards
 More keyboards for qmk/via [ayla80, ayla100]  
 
 Ayla80: QMK/VIA based Open Hardware Keyboard with 99 Keys (including macro keys)  
