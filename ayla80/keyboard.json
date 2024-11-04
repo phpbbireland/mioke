@@ -1,5 +1,5 @@
-{"comment": "Remove this comment: Not quite right as yet, keys don't match matrix/ prototype board"},
 {
+    "comment": "Remove this comment line: Not quite right as yet, keys don't match matrix/ prototype board",
     "manufacturer": "Mioke",
     "keyboard_name": "ayla80",
     "url": "",
