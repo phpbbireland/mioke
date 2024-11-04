@@ -1,5 +1,6 @@
-# mioke keyboards
-mioke keyboards for qmk/via [ayla80,ayla99,ayla100]  
+# Mioke keyboards
+More keyboards for qmk/via [ayla80, ayla100]  
+
 QMK Based Open Hardware Keyboard with 99 Keys and Via Support  
 
 Just another open source / open hardware ~80% keyboard...
