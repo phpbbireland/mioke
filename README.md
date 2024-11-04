@@ -1,15 +1,16 @@
 # Mioke keyboards
 More keyboards for qmk/via [ayla80, ayla100]  
 
-Ayla80: QMK Based Open Hardware Keyboard with 99 Keys and Via Support  
-
-Just another open source / open hardware ~80% keyboard...
+Ayla80: QMK/VIA based Open Hardware Keyboard with 99 Keys (including macro keys)  
+Ayla100: QMK/Via full size Keyboard including Macro Keys  
 
 Ref: https://hackaday.io/project/197065-mioke80-iso-99-key-80-keyboard
 
-+ Schematic prototype complete...  
++ Keyboard schematic prototype complete...
++ Controller schematic prototype complete...
 + Software 90% complete...  
 + QMK/VIA code tested on Blackpill 411 Dev Board
++ QMK/VIA code not tested on new dev controller board (Blackpill 411 replacement Dev Board with more GPIOs)
 + Now loads in usevia.app... Needed work to get RGB and Encoder and layout working correctly...
 
 Kicad Resources:  
