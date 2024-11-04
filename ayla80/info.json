@@ -1,11 +1,11 @@
 {
+    "keyboard_name": "ayla80",
     "manufacturer": "Mioke",
+    "url": "",
     "maintainer": "phpbbireland",
     "usb": {
-        "device_version": "0.0.1",
-        "vid": "0xFEED"
+        "pid": "0x6179",
+        "vid": "0xFEED",
+        "device_version": "0.0.1"
     }
-    "bootloader_instructions": "Hold down the BOOT button, press and release the NRST button, release the BOOT button.",
-    "url": "https://github.com/phpbbireland/mioke80",
-    "board": "BLACKPILL_STM32_F411"
 }
