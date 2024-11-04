@@ -4,7 +4,20 @@ More keyboards for qmk/via [ayla80, ayla100]
 Ayla80: QMK/VIA based Open Hardware Keyboard with 99 Keys (including macro keys)  
 Ayla100: QMK/Via full size Keyboard including Macro Keys  
 
-Ref: https://hackaday.io/project/197065-mioke80-iso-99-key-80-keyboard
+Development is broken into the following steps:  
+
+The development setup consists of:
+1) A very basic keyboard PCB (contains the key switches, diodes and RGB, and no micro)...  
+2) A Blackpill Module (connected via the usual two 20 pin connectors)...
+3) Once development is complete we then combine both in one PCB...
+
+I have also designed a new development board to replace the Blackpill for future development.  
+It adds additional GPIO to allow a 6x17 matrix and additional signals for example, Caps Lock etc...  
+
+The new dev board connects via a small 30 pin 1.27mm pitch connector or possibly a ribbon cable, both are being considered.  
+There are several advantages to having the main electronics on a separate board but it's primarily to ease development.  
+
+Ref: https://hackaday.io/project/197065-mioke80-iso-99-key-80-keyboard  
 
 + Keyboard schematic prototype complete...
 + Controller schematic prototype complete...
