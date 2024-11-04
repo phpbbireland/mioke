@@ -1,3 +1,4 @@
+Remove this comment: Not quite right as yet, keys don't match matrix/ prototype board...
 {
     "manufacturer": "Mioke",
     "keyboard_name": "ayla80",
@@ -147,8 +148,6 @@
                         {"matrix": [9, 7], "x":  17.5, "y": 5.25},
                         {"matrix": [9, 8], "x":  18.5, "y": 5.25},
                         {"matrix": [9, 9], "x":  2.25, "y": 0}
-
-
             ]
         }
     }
